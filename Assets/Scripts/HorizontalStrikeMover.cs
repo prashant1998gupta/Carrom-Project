@@ -27,6 +27,6 @@ public class HorizontalStrikeMover : MonoBehaviour
                 transform.position = new Vector2(Mathf.Clamp(transform.position.x, xMin, xMax) + touch.deltaPosition.x * speedModifier ,-3.1f);
             }
         }
-        
+       
     }
 }

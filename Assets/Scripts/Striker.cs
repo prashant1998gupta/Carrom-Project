@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Striker : MonoBehaviour
 {
+    public static int i;
     public Transform striker;
      Rigidbody2D rd;
 
