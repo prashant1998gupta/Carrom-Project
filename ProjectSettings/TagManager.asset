@@ -10,6 +10,11 @@ TagManager:
   - Boundry
   - Goal
   - Striker
+  - Ball1
+  - Ball2
+  - Arrow
+  - Circle
+  - StrikerGlow
   layers:
   - Default
   - TransparentFX

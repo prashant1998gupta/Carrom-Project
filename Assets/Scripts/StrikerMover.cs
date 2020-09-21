@@ -9,12 +9,12 @@ public class StrikerMover : MonoBehaviour
     float min , max;
     float Loc;
     public Slider SliderDis;
+
     void Start()
     {
         SliderDis = GetComponent<Slider>();
-      
-        
     }  
+
     void UpdateObjectPositionBySlider()
     {
         Loc = SliderDis.value;
@@ -23,6 +23,9 @@ public class StrikerMover : MonoBehaviour
         var currentPosition = changeInDistance + min;
         
         transform.position = new Vector3(currentPosition , transform.position.y , transform.position.z);
-    }
+
+        
+         
+    }    
 
 }

@@ -37,7 +37,6 @@ public class MoveBySlider : MonoBehaviour
     {
         if (canMoveBySlider)
         {
-            Debug.Log(Slider1.value );
             var moveableDistance = m_xMax - m_xMin;
             var changeInDistance = (moveableDistance * Slider1.value) / 100;
             var currentPosition = changeInDistance + m_xMin;
